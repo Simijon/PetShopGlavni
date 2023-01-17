@@ -70,9 +70,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-            <a href="{{ route('home') }}" class="nav-item nav-link active">Početna</a>
-            <a href="{{ route('about') }}" class="nav-item nav-link">O nama</a>
-            <a href="{{ route('products') }}" class="nav-item nav-link">Proizvodi</a>
+            <a href="{{ route('home') }}" class="nav-item nav-link {{ Request::is('/') ? 'active' : '' }}">Početna</a>
+            <a href="{{ route('about') }}" class="nav-item nav-link {{ Request::is('about') ? 'active' : '' }}">O nama</a>
+            <a href="{{ route('products') }}" class="nav-item nav-link {{ Request::is('products') ? 'active' : '' }}">Proizvodi</a>
             <a href="{{ route('cart') }}" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Korpa <i class="bi bi-arrow-right"></i></a>
         </div>
     </div>

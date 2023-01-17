@@ -12,7 +12,7 @@
                     <h1 class="text-uppercase text-white mb-lg-4">Da vaši ljubimci budu srećni</h1>
                     <p class="fs-4 text-white mb-lg-4">Dolore tempor clita lorem rebum kasd eirmod dolore diam eos kasd. Kasd clita ea justo est sed kasd erat clita sea</p>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="{{ route('home') }}" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Saznajte više</a>
+                        <a href="{{ route('about') }}" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Saznajte više</a>
 
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/lfls5c-Z7bs" data-bs-target="#videoModal">
